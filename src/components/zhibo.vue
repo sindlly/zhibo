@@ -98,7 +98,7 @@
             <div class=" flex-col">
                 <div class="time">18:40<div class="tip">循环赛</div></div>
                 <div class="teams">
-                    <div class="team"><span class="circle t6"></span>解决方案中心</div>
+                    <div class="team"><span class="circle t1"></span>解决方案中心</div>
                     <div class="team"><span class="circle t4"></span>数字化产品部</div>
                 </div>
                 <div class="grades">
@@ -200,7 +200,7 @@
                 </div>
             </div>
         </div>
-
+        <div class="footer">powered by 开发平台篮球爱好者</div>
     </div>
 
 </template>
@@ -266,6 +266,7 @@
         justify-content: center;
         align-items: left;
         width: 150px;
+
     }
     .tip{
         font-size: 0.9rem;
@@ -277,6 +278,7 @@
     .grade{
         padding: 2px 0;
         text-align: center;
+        line-height: 24px;
     }
     .line{
         width: 90%;
@@ -290,6 +292,7 @@
         justify-content: flex-start;
     }
     .team{
+        line-height: 24px;
         display: flex;
         padding: 2px 0;
         align-items: center;
@@ -321,6 +324,14 @@
     a{
         color: #18bbfc;
         text-decoration: none;
+    }
+    .footer{
+        margin: 10px 0;
+        width: 100%;
+        font-size: .8rem;
+        text-align: center;
+        line-height: 20px;
+        color: #999;
     }
 
 </style>
